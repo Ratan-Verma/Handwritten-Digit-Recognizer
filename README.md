@@ -32,9 +32,7 @@ Add support for multiple image uploads.
 Enhance the UI with CSS frameworks (e.g., Bootstrap).
 Implement model optimization for faster predictions.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgments
+
 
 MNIST dataset from Keras.
 Inspiration from online AI/ML tutorials and Flask documentation.
