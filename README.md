@@ -1,49 +1,10 @@
 Handwritten Digit Recognizer
-eXplain: What is this project about?
+
+
+Explain: What is this project about?
 This project, Handwritten Digit Recognizer, is an AI-powered web application that leverages machine learning to identify handwritten digits (0-9) using a Convolutional Neural Network (CNN) trained on the MNIST dataset. The application allows users to upload an image of a handwritten digit, previews it on a simple web interface, and predicts the digit with a confidence score. Built with Python, Flask, Keras, and TensorFlow, it demonstrates end-to-end machine learning development, from model training to deployment.
 Why: Why is this project important?
 Handwritten digit recognition is a foundational problem in computer vision and machine learning, with applications in postal automation, form processing, and assistive technology for the visually impaired. This project showcases the practical implementation of a CNN, achieving high accuracy on the MNIST dataset, and provides a user-friendly interface to interact with the model. It serves as a learning resource for beginners in AI/ML and a proof-of-concept for deploying machine learning models via web applications, highlighting the potential of AI in real-world digit recognition tasks.
-eXecute: How to set up and run the project
-Prerequisites
-
-Python 3.12
-pip (package manager)
-Git (for version control)
-
-Installation
-
-Clone the repository:
-git clone https://github.com/your-username/handwritten-digit-recognizer.git
-cd handwritten-digit-recognizer
-
-
-Install dependencies:
-
-Create a virtual environment (optional but recommended):python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-
-Install required packages:pip install flask keras tensorflow numpy pillow pywin32
-
-
-
-
-Verify the model:
-
-Ensure mnist.keras is in the project directory (downloaded or trained as per the notebook).
-
-
-
-Running the Application
-
-Start the Flask server:python app.py
-
-
-Access the web interface:
-Open a browser and go to http://127.0.0.1:5000/.
-Upload an image (e.g., from testing images) and click "Predict" to see the result.
-
-
 
 Project Structure
 
